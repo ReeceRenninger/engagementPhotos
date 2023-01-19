@@ -8,6 +8,7 @@ let pics = [
 ]
 // search the html document and look for the first instance of button
 let btn = document.querySelector("button");
+// searches html doc for first img instance
 let img = document.querySelector("img");
 let counter = 1;
 
