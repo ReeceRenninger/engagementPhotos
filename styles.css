@@ -1,0 +1,56 @@
+/* what we are selecting */
+h1 {
+  /* how we are changing it, all h1s will be purple text */
+  /* color: purple; */
+  font-weight: 500;
+  font-size: 70px;
+  text-transform: uppercase;
+  border-top: 5px solid #993628; 
+}
+
+body {
+  background-color: rgba(0, 0, 2, 0.979);
+  color: #fcd62d;
+  /* font-family: "Times New Roman"; need to find custom fonts to work */
+  /* font-weight: ; can use this to change the font sizes */
+
+}
+
+img {
+  height: 500px;
+  /* border radius rounds the edges of a photo */
+  border-radius: 50%;  
+}
+/* have to use the hashtag to find the section added to html id section , this whole section below centers and moves the material on the page*/
+#container {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  height: 100vh;
+}
+/* change the visual of the button with no inputs */
+button {
+  margin: 30px auto 0;
+  padding: 15px 20px;
+  background-color: white;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid purple;
+  text-transform: uppercase;
+  text-decoration: none;
+  outline: none;
+  letter-spacing: 2px;
+}
+/* added hover color change and transition speed  */
+button:hover {
+  transition: 1s;
+  background-color: purple;
+  color: white;
+  text-decoration: underline;
+}
+
+p{
+  font-size: 20px;
+  color:  #fcd62d;
+}
